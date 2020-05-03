@@ -1,0 +1,13 @@
+[
+    [1, "rice", 10, "kilogram", "grocery", ""],
+    [1, "Shuger", 5, "Kilogram", "grocery", ""],
+    [1, "hand wash", 2, "number", "grocery", ""],
+    [1, "savala", 1, "kilogram", "grocery", ""],
+    [1, "salt", 2, "kilogram", "grocery", ""],
+    [1, "cake", 1, "kilogram", "bakery", ""],
+    [1, "mango", 1, "kilogram", "fruit", ""],
+    [1, "apple", 1, "kilogram", "fruit", ""],
+    [1, "orange", 1, "kilogram", "fruit", ""],
+    [1, "lemon", 10, "numbers", "fruit", ""]
+
+]

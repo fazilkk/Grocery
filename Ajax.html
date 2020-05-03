@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <lisnk rel="stylesheet" type="" href="style.css">
+</head>
+
+<body>
+    <h1>Grocery</h1>
+    <table id="" class="table striped">
+        <thead>
+            <tr>
+                <th>Slno</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Unit</th>
+                <th>Department</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>rice</td>
+                <td>10</td>
+                <td>kilogram</td>
+                <td>grocery</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>shugar</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>grocery</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hand wash</td>
+                <td>2</td>
+                <td>number</td>
+                <td>grocery</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>savala</td>
+                <td>2</td>
+                <td>kilogram</td>
+                <td>vegitable</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>salt</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>grocery</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>cake</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>bakery</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Mango</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>Fruit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Apple</td>
+                <td>2</td>
+                <td>kilogram</td>
+                <td>Fruit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Orange</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>Fruit</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Lemon</td>
+                <td>1</td>
+                <td>kilogram</td>
+                <td>Vegitable</td>
+                <td></td>
+            </tr>
+            <!-- <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr> -->
+
+
+
+        </tbody>
+    </table>
+
+
+
+
+
+
+    <script>
+        var ajax = new XMLHttpRequest();
+        ajax.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                t = this.responseText;
+                p = JSON.parse(t);
+                for (var i in p) {
+
+                }
+            }
+        }
+        ajax.open("get", "grocery.json", true);
+        ajax.send();
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
